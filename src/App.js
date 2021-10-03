@@ -24,7 +24,7 @@ function App() {
 
   return (
     <div className="container mx-auto my-10">
-      <div className="">
+      <div className="mx-3">
         <ImageSearch searchText={(text) => setTerm(text)} />
       </div>
       {isloading ? (
@@ -34,7 +34,7 @@ function App() {
             <div className="font-bold text-lg text-gray-200 ml-5 mt-10">Loading...</div>
           </div>
         </>
-      ) : <div className="grid justify-center xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1 gap-8 ">
+      ) : <div className="grid justify-center xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1 gap-8 mx-3">
         {images.map(image => (
           <ImageCard key={image.id} image={image} />
         ))}
