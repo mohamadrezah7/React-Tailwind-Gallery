@@ -15,7 +15,7 @@
   },
   "scripts": {
     "start": "npm run watch-css && set PORT=8000 && react-scripts start",
-    "build": "npm run build-css && react-scripts build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "bulid-css": "postcss src/assets/tailwind.css -o src/assets/main.css",
