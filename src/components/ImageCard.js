@@ -15,7 +15,7 @@ const ImageCard = ({ image }) => {
             <li className="flex justify-between">
               <strong><span className="inline-block mr-2  text-xl"><FaEye /></span>Views: <span className="font-light">{image.views}</span></strong>
               <a href={image.largeImageURL} target="_blank" rel="noopener noreferrer" className="bg-purple-500 text-xs text-gray-100 p-2 py-1 rounded-2xl hover:bg-purple-700 hover:shadow-xl">
-                See Photo
+                Download
               </a>
             </li>
             <li>
