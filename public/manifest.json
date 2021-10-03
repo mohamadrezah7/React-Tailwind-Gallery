@@ -1,25 +1,29 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Photo Gallery",
+  "name": "Photo galley with react & tailwind",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#01a3a4",
+  "orientation": "portrait-primary",
+  "background_color": "#10ac84",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "gallery.png",
       "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "type": "image/x-icon",
+      "purpose": "any maskable"
     },
     {
-      "src": "logo192.png",
+      "src": "gallery.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "192x192",
+      "purpose": "any maskable"
     },
     {
-      "src": "logo512.png",
+      "src": "gallery.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "512x512",
+      "purpose": "any maskable"
     }
-  ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  ]
 }
